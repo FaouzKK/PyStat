@@ -3,6 +3,16 @@
 
 `pyStat` est une application Python pour effectuer des statistiques simples et doubles.
 
+## Aperçu
+
+Les version compiler en application windows sont disponible dans dans les [releases]('https://github.com/FaouzKK/PyStat/releases').
+
+## Structure du projet
+
+Le projet est structuré de la manière suivante :
+
+- `src/` : Contient le code source de l'application.
+
 ## Fonctionnalités
 
 - Entrée manuelle de données.
@@ -48,7 +58,7 @@ python -m venv venv
 
 #### Sur Windows :
 ```bash
-.env\Scriptsctivate
+.env\Scripts\activate
 ```
 
 #### Sur macOS/Linux :

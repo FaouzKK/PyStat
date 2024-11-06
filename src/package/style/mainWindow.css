@@ -1,0 +1,31 @@
+QWidget {
+    background-color: rgb(186, 209, 230);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+QComboBox {
+    padding: 6px 5px;
+}
+
+QComboBox QAbstractItemView::item:selected {
+    color: #000;  /* couleur du texte de l'élément sélectionné */
+    background-color: #d3d3d3;  /* couleur de fond de l'élément sélectionné */
+}
+
+QComboBox:editable {
+    color: #000;  /* couleur du texte dans le champ d'affichage */
+}
+
+QComboBox:focus {
+    border: 1px solid #3366ff; /* Changez cette couleur pour la couleur du bord lorsque le combo box est sélectionné */
+    background-color: #f0f0f0; /* Changez la couleur de fond lorsque le combo box est sélectionné */
+    color: #000; /* Changez la couleur du texte */
+}
+
+QPushButton {
+    padding: 6px 5px;
+    color: rgb(255, 254, 254);
+    background-color: #3366ff;
+}
+

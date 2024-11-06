@@ -5,7 +5,8 @@
 
 ## Aperçu
 
-Les version compiler en application windows sont disponible dans dans les [releases]('https://github.com/FaouzKK/PyStat/releases').
+Les version compiler en application windows sont disponible dans les releases : <br>
+    => https://github.com/FaouzKK/PyStat/releases .
 
 ## Structure du projet
 
